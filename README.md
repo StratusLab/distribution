@@ -11,14 +11,14 @@ about the distribution itself.
 Build Status
 ------------
 
-  * authn: [![Build Status](https://secure.travis-ci.org/StratusLab/authn.png)](https://secure.travis-ci.org/StratusLab/authn.png)
-  * client: [![Build Status](https://secure.travis-ci.org/StratusLab/client.png)](https://secure.travis-ci.org/StratusLab/client.png)
-  * distribution: [![Build Status](https://secure.travis-ci.org/StratusLab/distribution.png)](https://secure.travis-ci.org/StratusLab/distribution.png)
-  * marketplace: [![Build Status](https://secure.travis-ci.org/StratusLab/marketplace.png)](https://secure.travis-ci.org/StratusLab/marketplace.png)
-  * metadata: [![Build Status](https://secure.travis-ci.org/StratusLab/metadata.png)](https://secure.travis-ci.org/StratusLab/metadata.png)
-  * one: [![Build Status](https://secure.travis-ci.org/StratusLab/one.png)](https://secure.travis-ci.org/StratusLab/one.png)
-  * registration: [![Build Status](https://secure.travis-ci.org/StratusLab/registration.png)](https://secure.travis-ci.org/StratusLab/registration.png)
-  * storage: [![Build Status](https://secure.travis-ci.org/StratusLab/storage.png)](https://secure.travis-ci.org/StratusLab/storage.png)
+  * authn: [![Build Status](https://secure.travis-ci.org/StratusLab/authn.png)](http://travis-ci.org/#!/StratusLab/authn)
+  * client: [![Build Status](https://secure.travis-ci.org/StratusLab/client.png)](http://travis-ci.org/#!/StratusLab/client)
+  * distribution: [![Build Status](https://secure.travis-ci.org/StratusLab/distribution.png)](http://travis-ci.org/#!/StratusLab/distribution)
+  * marketplace: [![Build Status](https://secure.travis-ci.org/StratusLab/marketplace.png)](http://travis-ci.org/#!/StratusLab/marketplace)
+  * metadata: [![Build Status](https://secure.travis-ci.org/StratusLab/metadata.png)](http://travis-ci.org/#!/StratusLab/metadata)
+  * one: [![Build Status](https://secure.travis-ci.org/StratusLab/one.png)](http://travis-ci.org/#!/StratusLab/one)
+  * registration: [![Build Status](https://secure.travis-ci.org/StratusLab/registration.png)](http://travis-ci.org/#!/StratusLab/registration)
+  * storage: [![Build Status](https://secure.travis-ci.org/StratusLab/storage.png)](http://travis-ci.org/#!/StratusLab/storage)
 
 License
 -------

@@ -13,6 +13,7 @@ Build Status
 
   * authn: [![Build Status](https://secure.travis-ci.org/StratusLab/authn.png)](https://secure.travis-ci.org/StratusLab/authn.png)
   * distribution: [![Build Status](https://secure.travis-ci.org/StratusLab/distribution.png)](https://secure.travis-ci.org/StratusLab/distribution.png)
+  * marketplace: [![Build Status](https://secure.travis-ci.org/StratusLab/marketplace.png)](https://secure.travis-ci.org/StratusLab/marketplace.png)
   * metadata: [![Build Status](https://secure.travis-ci.org/StratusLab/metadata.png)](https://secure.travis-ci.org/StratusLab/metadata.png)
   * registration: [![Build Status](https://secure.travis-ci.org/StratusLab/registration.png)](https://secure.travis-ci.org/StratusLab/registration.png)
 

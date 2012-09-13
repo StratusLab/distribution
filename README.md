@@ -16,6 +16,7 @@ Build Status
   * marketplace: [![Build Status](https://secure.travis-ci.org/StratusLab/marketplace.png)](https://secure.travis-ci.org/StratusLab/marketplace.png)
   * metadata: [![Build Status](https://secure.travis-ci.org/StratusLab/metadata.png)](https://secure.travis-ci.org/StratusLab/metadata.png)
   * registration: [![Build Status](https://secure.travis-ci.org/StratusLab/registration.png)](https://secure.travis-ci.org/StratusLab/registration.png)
+  * storage: [![Build Status](https://secure.travis-ci.org/StratusLab/storage.png)](https://secure.travis-ci.org/StratusLab/storage.png)
 
 License
 -------

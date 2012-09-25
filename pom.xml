@@ -107,17 +107,13 @@ StratusLab cloud components.
     <repository>
       <id>stratuslab.releases</id>
       <name>Releases</name>
-      <url>http://repo.stratuslab.eu:8081/content/repositories/${nexus.release.repository.name}</url>
+      <url>http://repo.stratuslab.eu:8081/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
       <id>stratuslab.snapshots</id>
       <name>Snapshots</name>
-      <url>http://repo.stratuslab.eu:8081/content/repositories/${nexus.snapshot.repository.name}</url>
+      <url>http://repo.stratuslab.eu:8081/content/repositories/snapshots</url>
     </snapshotRepository>
-    <site>
-      <id>hudson.webserver</id>
-      <url>scp://hudson.stratuslab.eu/var/www/one</url>
-    </site>
   </distributionManagement>
 
   <dependencyManagement>
@@ -441,5 +437,56 @@ StratusLab cloud components.
     </pluginManagement>
 
   </build>
+
+  <profiles>
+
+    <profile>
+      <id>centos</id>
+
+      <properties>
+        <package.os>el6</package.os>
+        <nexus.release.repository.name>centos-6.2-releases</nexus.release.repository.name>
+        <nexus.snapshot.repository.name>centos-6.2-snapshots</nexus.snapshot.repository.name>
+      </properties>
+
+      <distributionManagement>
+        <repository>
+          <id>stratuslab.releases</id>
+          <name>Releases</name>
+          <url>http://repo.stratuslab.eu:8081/content/repositories/centos-6.2-releases</url>
+        </repository>
+        <snapshotRepository>
+          <id>stratuslab.snapshots</id>
+          <name>Snapshots</name>
+          <url>http://repo.stratuslab.eu:8081/content/repositories/centos-6.2-snapshots</url>
+        </snapshotRepository>
+      </distributionManagement>
+
+    </profile>
+
+    <profile>
+      <id>opensuse</id>
+
+      <properties>
+        <package.os>sles12</package.os>
+        <nexus.release.repository.name>opensuse-12.1-releases</nexus.release.repository.name>
+        <nexus.snapshot.repository.name>opensuse-12.1-snapshots</nexus.snapshot.repository.name>
+      </properties>
+
+      <distributionManagement>
+        <repository>
+          <id>stratuslab.releases</id>
+          <name>Releases</name>
+          <url>http://repo.stratuslab.eu:8081/content/repositories/opensuse-12.1-releases</url>
+        </repository>
+        <snapshotRepository>
+          <id>stratuslab.snapshots</id>
+          <name>Snapshots</name>
+          <url>http://repo.stratuslab.eu:8081/content/repositories/opensuse-12.1-snapshots</url>
+        </snapshotRepository>
+      </distributionManagement>
+
+    </profile>
+  </profiles>
 
 </project>

@@ -16,7 +16,7 @@ StratusLab cloud components.
   <packaging>pom</packaging>
 
   <properties>
-    <jetty.version>7.5.4.v20111024</jetty.version>
+    <jetty.version>7.6.1.v20120215</jetty.version>
     <restlet.version>2.1-RC6</restlet.version>
     <sesame.version>2.6.9</sesame.version>
     <slf4j.version>1.6.1</slf4j.version>

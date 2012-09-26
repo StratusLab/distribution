@@ -149,6 +149,11 @@ StratusLab cloud components.
         <artifactId>slf4j-simple</artifactId>
         <version>${slf4j.version}</version>
       </dependency>
+      <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.17</version>
+      </dependency>
 
       <dependency>
 	<groupId>eu.eu-emi.security</groupId>

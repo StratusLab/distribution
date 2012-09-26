@@ -1,4 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project 
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
  
   <groupId>eu.stratuslab</groupId>
@@ -21,9 +24,7 @@ StratusLab cloud components.
     <sesame.version>2.6.9</sesame.version>
     <slf4j.version>1.6.1</slf4j.version>
 
-    <package.os>fc14</package.os>
-    <nexus.release.repository.name>fedora-14-releases</nexus.release.repository.name>
-    <nexus.snapshot.repository.name>fedora-14-snapshots</nexus.snapshot.repository.name>
+    <package.os>unk</package.os>
   </properties>
 
   <licenses>
@@ -54,23 +55,6 @@ StratusLab cloud components.
   </scm>
 
   <repositories>
-
-    <repository>
-      <releases>
-	<enabled>true</enabled>
-	<updatePolicy>always</updatePolicy>
-	<checksumPolicy>fail</checksumPolicy>
-      </releases>
-      <snapshots>
-	<enabled>false</enabled>
-	<updatePolicy>never</updatePolicy>
-	<checksumPolicy>fail</checksumPolicy>
-      </snapshots>
-      <id>StratusLabReleases</id>
-      <name>StratusLab Releases</name>
-      <url>http://repo.stratuslab.eu:8081/content/repositories/${nexus.release.repository.name}</url>
-      <layout>default</layout>
-    </repository>
 
     <repository>  
       <id>maven-restlet</id>  
@@ -456,8 +440,6 @@ StratusLab cloud components.
 
       <properties>
         <package.os>el6</package.os>
-        <nexus.release.repository.name>centos-6.2-releases</nexus.release.repository.name>
-        <nexus.snapshot.repository.name>centos-6.2-snapshots</nexus.snapshot.repository.name>
       </properties>
 
       <distributionManagement>
@@ -480,8 +462,6 @@ StratusLab cloud components.
 
       <properties>
         <package.os>sles12</package.os>
-        <nexus.release.repository.name>opensuse-12.1-releases</nexus.release.repository.name>
-        <nexus.snapshot.repository.name>opensuse-12.1-snapshots</nexus.snapshot.repository.name>
       </properties>
 
       <distributionManagement>

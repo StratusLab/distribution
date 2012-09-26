@@ -219,6 +219,11 @@ StratusLab cloud components.
       </dependency>
       <dependency>
         <groupId>org.openrdf.sesame</groupId>
+        <artifactId>sesame-sail-nativerdf</artifactId>
+        <version>${sesame.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openrdf.sesame</groupId>
         <artifactId>sesame-sail-rdbms</artifactId>
         <version>${sesame.version}</version>
       </dependency>

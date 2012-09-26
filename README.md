@@ -10,7 +10,7 @@ about the distribution itself.
 
 Build Status
 ------------
-
+ 
   * authn: [![Build Status](https://secure.travis-ci.org/StratusLab/authn.png)](http://travis-ci.org/#!/StratusLab/authn)
   * client: [![Build Status](https://secure.travis-ci.org/StratusLab/client.png)](http://travis-ci.org/#!/StratusLab/client)
   * distribution: [![Build Status](https://secure.travis-ci.org/StratusLab/distribution.png)](http://travis-ci.org/#!/StratusLab/distribution)

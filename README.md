@@ -12,6 +12,7 @@ Build Status
 ------------
  
   * [![Build Status](https://secure.travis-ci.org/StratusLab/authn.png)](http://travis-ci.org/#!/StratusLab/authn) authn
+  * [![Build Status](https://secure.travis-ci.org/StratusLab/benchmarks.png)](http://travis-ci.org/#!/StratusLab/benchmarks) benchmarks
   * [![Build Status](https://secure.travis-ci.org/StratusLab/client.png)](http://travis-ci.org/#!/StratusLab/client) client
   * [![Build Status](https://secure.travis-ci.org/StratusLab/distribution.png)](http://travis-ci.org/#!/StratusLab/distribution) distribution
   * [![Build Status](https://secure.travis-ci.org/StratusLab/marketplace.png)](http://travis-ci.org/#!/StratusLab/marketplace) marketplace

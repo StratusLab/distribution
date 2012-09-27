@@ -24,9 +24,9 @@ StratusLab cloud components.
 
   <properties>
     <jetty.version>7.6.1.v20120215</jetty.version>
-    <restlet.version>2.1-RC6</restlet.version>
+    <restlet.version>2.1.0</restlet.version>
     <sesame.version>2.6.9</sesame.version>
-    <slf4j.version>1.6.1</slf4j.version>
+    <slf4j.version>1.7.1</slf4j.version>
 
     <package.os>unk</package.os>
   </properties>
@@ -264,17 +264,17 @@ StratusLab cloud components.
       <dependency>
         <groupId>com.googlecode.json-simple</groupId>
         <artifactId>json-simple</artifactId>
-        <version>1.1</version>
+        <version>1.1.1</version>
       </dependency>
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.15</version>
+        <version>5.1.21</version>
       </dependency> 
       <dependency>
         <groupId>postgresql</groupId>
         <artifactId>postgresql</artifactId>
-        <version>9.1-901.jdbc4</version>
+        <version>9.1-901-1.jdbc4</version>
       </dependency>
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -284,7 +284,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>javax.mail</groupId>
         <artifactId>mail</artifactId>
-        <version>1.4.1</version>
+        <version>1.4.5</version>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
@@ -306,7 +306,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.simpleframework</groupId>
         <artifactId>simple-xml</artifactId>
-        <version>2.2.4</version>
+        <version>2.6.6</version>
       </dependency>
       <dependency>
         <groupId>org.hibernate</groupId>
@@ -316,7 +316,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.hsqldb</groupId>
         <artifactId>hsqldb</artifactId>
-        <version>2.2.4</version>
+        <version>2.2.8</version>
       </dependency>
 
     </dependencies>

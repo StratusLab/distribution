@@ -3,7 +3,7 @@
  
   <groupId>eu.stratuslab</groupId>
   <artifactId>distribution</artifactId>
-  <version>2.2-SNAPSHOT</version>
+  <version>2.2</version>
   <name>Distribution (POM)</name>
 
   <url>https://github.com/StratusLab</url>

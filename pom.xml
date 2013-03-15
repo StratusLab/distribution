@@ -145,6 +145,11 @@ StratusLab cloud components.
 	<artifactId>canl</artifactId>
 	<version>1.1.0</version>
       </dependency>
+      <dependency>
+        <groupId>org.italiangrid</groupId>
+        <artifactId>voms-api-java</artifactId>
+        <version>3.0.0</version>
+      </dependency>
 
       <dependency>
 	<groupId>org.eclipse.jetty</groupId>
@@ -161,6 +166,11 @@ StratusLab cloud components.
 	<artifactId>jetty-http</artifactId>
 	<version>${jetty.version}</version>
 	<scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-jaas</artifactId>
+        <version>${jetty.version}</version>
       </dependency>
 
       <dependency>

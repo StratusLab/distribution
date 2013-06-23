@@ -78,13 +78,7 @@ StratusLab cloud components.
 
     <repository>
       <id>clojars</id>
-      <url>https://clojars.org/repo/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
+      <url>http://clojars.org/repo/</url>
     </repository>
     
   </repositories>

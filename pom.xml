@@ -21,7 +21,7 @@ StratusLab cloud components.
   </prerequisites>
 
   <properties>
-    <jetty.version>9.0.5.v20130815</jetty.version>
+    <jetty.version>9.0.6.v20130930</jetty.version>
     <restlet.version>2.1.4</restlet.version>
     <sesame.version>2.7.6</sesame.version>
     <slf4j.version>1.7.5</slf4j.version>

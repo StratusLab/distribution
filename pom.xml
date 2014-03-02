@@ -21,10 +21,10 @@ StratusLab cloud components.
   </prerequisites>
 
   <properties>
-    <jetty.version>9.0.6.v20130930</jetty.version>
-    <restlet.version>2.1.4</restlet.version>
+    <jetty.version>9.1.3.v20140225</jetty.version>
+    <restlet.version>2.1.7</restlet.version>
     <sesame.version>2.7.9</sesame.version>
-    <slf4j.version>1.7.5</slf4j.version>
+    <slf4j.version>1.7.6</slf4j.version>
 
     <package.os>unk</package.os>
   </properties>
@@ -277,7 +277,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.26</version>
+        <version>5.1.29</version>
       </dependency> 
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -331,7 +331,7 @@ StratusLab cloud components.
       <dependency>
 	<groupId>org.apache.httpcomponents</groupId>
 	<artifactId>httpclient</artifactId>
-	<version>4.3.1</version>
+	<version>4.3.3</version>
       </dependency>
 
     </dependencies>

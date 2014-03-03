@@ -23,7 +23,7 @@ StratusLab cloud components.
   <properties>
     <jetty.version>9.0.7.v20131107</jetty.version>
     <restlet.version>2.1.7</restlet.version>
-    <sesame.version>2.7.9</sesame.version>
+    <sesame.version>2.7.10</sesame.version>
     <slf4j.version>1.7.6</slf4j.version>
 
     <package.os>unk</package.os>
@@ -72,12 +72,6 @@ StratusLab cloud components.
     </repository>
 
     <repository>
-      <id>talis</id>
-      <name>Public online talis repository</name>
-      <url>http://oss.talisplatform.com/content/repositories/talis-releases</url>
-    </repository>
-
-    <repository>
       <id>clojars</id>
       <url>http://clojars.org/repo/</url>
     </repository>
@@ -105,14 +99,14 @@ StratusLab cloud components.
 	<version>1.46</version>
       </dependency>
       <dependency>
-        <groupId>com.hp.hpl.jena</groupId>
-        <artifactId>jena</artifactId>
-        <version>2.6.4</version>
+        <groupId>org.apache.jena</groupId>
+        <artifactId>jena-core</artifactId>
+        <version>2.11.1</version>
       </dependency>
       <dependency>
-        <groupId>com.hp.hpl.jena</groupId>
-        <artifactId>arq</artifactId>
-        <version>2.8.7</version>
+        <groupId>org.apache.jena</groupId>
+        <artifactId>jena-arq</artifactId>
+        <version>2.11.1</version>
       </dependency>
 
       <dependency>
@@ -263,11 +257,6 @@ StratusLab cloud components.
         <groupId>org.openrdf.sesame</groupId>
         <artifactId>sesame-queryresultio-sparqlxml</artifactId>
         <version>${sesame.version}</version>
-      </dependency>
-      <dependency>
-         <groupId>com.talis.jena</groupId>
-         <artifactId>rdf-json</artifactId>
-         <version>0.3</version>
       </dependency>
       <dependency>
         <groupId>com.googlecode.json-simple</groupId>

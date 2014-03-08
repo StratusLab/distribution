@@ -4,7 +4,7 @@
  
   <groupId>eu.stratuslab</groupId>
   <artifactId>distribution</artifactId>
-  <version>14.03.0</version>
+  <version>14.03.0-SNAPSHOT</version>
   <name>Distribution (POM)</name>
 
   <url>https://github.com/StratusLab</url>

@@ -369,7 +369,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>ring-middleware-format</groupId>
         <artifactId>ring-middleware-format</artifactId>
-        <version>0.3.2</version>
+        <version>0.3.0</version>
       </dependency>
 
       <dependency>

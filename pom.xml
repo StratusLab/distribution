@@ -323,6 +323,157 @@ StratusLab cloud components.
 	<version>4.3.3</version>
       </dependency>
 
+
+      <dependency>
+        <groupId>org.clojure</groupId>
+        <artifactId>clojure</artifactId>
+        <version>1.5.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.clojure</groupId>
+        <artifactId>tools.logging</artifactId>
+        <version>0.2.6</version>
+      </dependency>
+      <dependency>
+        <groupId>org.clojure</groupId>
+        <artifactId>data.json</artifactId>
+        <version>0.2.4</version>
+      </dependency>
+      <dependency>
+        <groupId>clojure-ini</groupId>
+        <artifactId>clojure-ini</artifactId>
+        <version>0.0.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>http-kit</groupId>
+        <artifactId>http-kit</artifactId>
+        <version>2.1.17</version>
+      </dependency>
+
+      <dependency>
+        <groupId>ring</groupId>
+        <artifactId>ring-core</artifactId>
+        <version>1.2.2</version>
+      </dependency>
+      <dependency>
+        <groupId>ring</groupId>
+        <artifactId>ring-jetty-adapter</artifactId>
+        <version>1.2.2</version>
+      </dependency>
+      <dependency>
+        <groupId>compojure</groupId>
+        <artifactId>compojure</artifactId>
+        <version>1.1.6</version>
+      </dependency>
+      <dependency>
+        <groupId>ring-middleware-format</groupId>
+        <artifactId>ring-middleware-format</artifactId>
+        <version>0.3.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.cemerick</groupId>
+        <artifactId>friend</artifactId>
+        <version>0.2.0</version>
+        <exclusions>
+          <exclusion>
+            <groupId>ring</groupId>
+            <artifactId>ring-core</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>clj-http</groupId>
+        <artifactId>clj-http</artifactId>
+        <version>0.9.1</version>
+      </dependency>
+
+      <dependency>
+        <groupId>clj-time</groupId>
+        <artifactId>clj-time</artifactId>
+        <version>0.6.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.couchbase.client</groupId>
+        <artifactId>couchbase-client</artifactId>
+        <version>1.3.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>couchbase-clj</groupId>
+        <artifactId>couchbase-clj</artifactId>
+        <version>0.1.3</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.clojars.runa</groupId>
+        <artifactId>clj-schema</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>peridot</groupId>
+        <artifactId>peridot</artifactId>
+        <version>0.2.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.clojars.pntblnk</groupId>
+        <artifactId>clj-ldap</artifactId>
+        <version>0.0.9</version>
+      </dependency>
+
+      <dependency>
+        <groupId>instaparse</groupId>
+        <artifactId>instaparse</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.directory.server</groupId>
+        <artifactId>apacheds-all</artifactId>
+        <version>1.5.5</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>fs</groupId>
+        <artifactId>fs</artifactId>
+        <version>1.3.3</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>reply</groupId>
+        <artifactId>reply</artifactId>
+        <version>0.3.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>jline</groupId>
+        <artifactId>jline</artifactId>
+        <version>2.11</version>
+      </dependency>
+
+      <dependency>
+        <groupId>codox</groupId>
+        <artifactId>codox.core</artifactId>
+        <version>0.6.7</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.clojure</groupId>
+        <artifactId>tools.namespace</artifactId>
+        <version>0.2.4</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>hiccup</groupId>
+        <artifactId>hiccup</artifactId>
+        <version>1.0.5</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
   
@@ -425,11 +576,11 @@ StratusLab cloud components.
 	  <version>2.4</version>
 	</plugin>
 
-	<plugin>
-	  <groupId>org.mortbay.jetty</groupId>
-	  <artifactId>jetty-maven-plugin</artifactId>
-	  <version>${jetty.version}</version>
-	</plugin>
+        <plugin>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-maven-plugin</artifactId>
+          <version>${jetty.version}</version>
+        </plugin>
 
         <plugin>
           <groupId>org.codehaus.mojo</groupId>

@@ -437,6 +437,7 @@ StratusLab cloud components.
         <version>1.5.5</version>
         <scope>test</scope>
       </dependency>
+
       <dependency>
         <groupId>fs</groupId>
         <artifactId>fs</artifactId>
@@ -454,12 +455,6 @@ StratusLab cloud components.
         <groupId>jline</groupId>
         <artifactId>jline</artifactId>
         <version>2.11</version>
-      </dependency>
-
-      <dependency>
-        <groupId>codox</groupId>
-        <artifactId>codox.core</artifactId>
-        <version>0.6.7</version>
       </dependency>
 
       <dependency>

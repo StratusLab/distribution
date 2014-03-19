@@ -327,7 +327,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.clojure</groupId>
         <artifactId>clojure</artifactId>
-        <version>1.5.1</version>
+        <version>1.6.0-RC1</version>
       </dependency>
       <dependency>
         <groupId>org.clojure</groupId>
@@ -348,7 +348,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>http-kit</groupId>
         <artifactId>http-kit</artifactId>
-        <version>2.1.17</version>
+        <version>2.1.18</version>
       </dependency>
 
       <dependency>
@@ -434,7 +434,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.apache.directory.server</groupId>
         <artifactId>apacheds-all</artifactId>
-        <version>1.5.5</version>
+        <version>2.0.0-M16</version>
         <scope>test</scope>
       </dependency>
 

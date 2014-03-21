@@ -390,6 +390,17 @@ StratusLab cloud components.
       </dependency>
 
       <dependency>
+        <groupId>metrics-clojure</groupId>
+        <artifactId>metrics-clojure</artifactId>
+        <version>1.0.1</version>
+      </dependency>
+      <dependency>
+        <groupId>metrics-clojure-ring</groupId>
+        <artifactId>metrics-clojure-ring</artifactId>
+        <version>1.0.1</version>
+      </dependency>
+
+      <dependency>
         <groupId>clj-time</groupId>
         <artifactId>clj-time</artifactId>
         <version>0.6.0</version>

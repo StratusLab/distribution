@@ -327,7 +327,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.clojure</groupId>
         <artifactId>clojure</artifactId>
-        <version>1.6.0-RC3</version>
+        <version>1.6.0-RC4</version>
       </dependency>
       <dependency>
         <groupId>org.clojure</groupId>

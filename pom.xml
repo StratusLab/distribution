@@ -66,12 +66,6 @@ StratusLab cloud components.
     </repository>
 
     <repository>
-      <id>openrdf</id>
-      <name>Public online sesame repository</name>                  
-      <url>http://repo.aduna-software.org/maven2/releases</url>
-    </repository>
-
-    <repository>
       <id>clojars</id>
       <url>http://clojars.org/repo/</url>
     </repository>

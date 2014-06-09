@@ -26,6 +26,9 @@ StratusLab cloud components.
     <sesame.version>2.7.10</sesame.version>
     <slf4j.version>1.7.7</slf4j.version>
 
+    <metadata.version>${project.version}</metadata.version>
+    <authn.version>${project.version}</authn.version>
+
     <package.os>unk</package.os>
   </properties>
 

@@ -4,7 +4,7 @@
  
   <groupId>eu.stratuslab</groupId>
   <artifactId>distribution</artifactId>
-  <version>14.06.1.RC2-SNAPSHOT</version>
+  <version>14.06.0_RC3-SNAPSHOT</version>
   <name>Distribution (POM)</name>
 
   <url>https://github.com/StratusLab</url>
@@ -30,6 +30,8 @@ StratusLab cloud components.
     <authn.version>${project.version}</authn.version>
 
     <package.os>unk</package.os>
+    <maven.build.timestamp.format>yyyyMMdd.HHmmss</maven.build.timestamp.format>
+    <RELEASE>0.${maven.build.timestamp}.${package.os}</RELEASE>
   </properties>
 
   <licenses>

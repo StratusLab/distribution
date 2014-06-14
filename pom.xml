@@ -647,7 +647,6 @@ StratusLab cloud components.
 
       <properties>
         <package.os>el6</package.os>
-        <RELEASE>1</RELEASE>
       </properties>
 
     </profile>

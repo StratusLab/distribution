@@ -652,6 +652,15 @@ StratusLab cloud components.
 
     </profile>
 
+    <profile>
+      <id>release</id>
+
+      <properties>
+        <RELEASE>1</RELEASE>
+      </properties>
+
+    </profile>
+
   </profiles>
 
 </project>

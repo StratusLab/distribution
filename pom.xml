@@ -485,11 +485,6 @@ StratusLab cloud components.
 
       <!-- INTERNAL DEPENDENCIES BETWEEN COMPONENTS -->
       <dependency>
-	<groupId>eu.stratuslab.metadata</groupId>
-	<artifactId>metadata</artifactId>
-	<version>${project.version}</version>
-      </dependency>
-      <dependency>
 	<groupId>eu.stratuslab.authn</groupId>
 	<artifactId>authn-ssl</artifactId>
 	<version>${project.version}</version>
@@ -502,6 +497,11 @@ StratusLab cloud components.
       <dependency>
 	<groupId>eu.stratuslab.authn</groupId>
 	<artifactId>authn-one-proxy-war</artifactId>
+	<version>${project.version}</version>
+      </dependency>
+      <dependency>
+	<groupId>eu.stratuslab.metadata</groupId>
+	<artifactId>metadata</artifactId>
 	<version>${project.version}</version>
       </dependency>
       <dependency>

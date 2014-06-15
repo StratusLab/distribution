@@ -500,6 +500,11 @@ StratusLab cloud components.
 	<version>${project.version}</version>
       </dependency>
       <dependency>
+	<groupId>eu.stratuslab.authn</groupId>
+	<artifactId>authn-one-proxy-war</artifactId>
+	<version>${project.version}</version>
+      </dependency>
+      <dependency>
         <groupId>eu.stratuslab.metadata</groupId>
         <artifactId>metadata-fatjar</artifactId>
         <version>${project.version}</version>

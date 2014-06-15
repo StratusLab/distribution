@@ -100,12 +100,12 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.apache.jena</groupId>
         <artifactId>jena-core</artifactId>
-        <version>2.11.1</version>
+        <version>2.11.2</version>
       </dependency>
       <dependency>
         <groupId>org.apache.jena</groupId>
         <artifactId>jena-arq</artifactId>
-        <version>2.11.1</version>
+        <version>2.11.2</version>
       </dependency>
 
       <dependency>
@@ -330,7 +330,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.clojure</groupId>
         <artifactId>data.json</artifactId>
-        <version>0.2.4</version>
+        <version>0.2.5</version>
       </dependency>
       <dependency>
         <groupId>clojure-ini</groupId>
@@ -390,12 +390,12 @@ StratusLab cloud components.
       <dependency>
         <groupId>metrics-clojure</groupId>
         <artifactId>metrics-clojure</artifactId>
-        <version>1.1.0</version>
+        <version>2.1.0</version>
       </dependency>
       <dependency>
         <groupId>metrics-clojure-ring</groupId>
         <artifactId>metrics-clojure-ring</artifactId>
-        <version>1.1.0</version>
+        <version>2.1.0</version>
       </dependency>
 
       <dependency>
@@ -469,13 +469,13 @@ StratusLab cloud components.
       <dependency>
         <groupId>reply</groupId>
         <artifactId>reply</artifactId>
-        <version>0.3.0</version>
+        <version>0.3.1</version>
       </dependency>
 
       <dependency>
         <groupId>jline</groupId>
         <artifactId>jline</artifactId>
-        <version>2.11</version>
+        <version>2.12</version>
       </dependency>
 
     </dependencies>

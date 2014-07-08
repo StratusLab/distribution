@@ -4,7 +4,7 @@
  
   <groupId>eu.stratuslab</groupId>
   <artifactId>distribution</artifactId>
-  <version>14.06.0</version>
+  <version>14.06.1-SNAPSHOT</version>
   <name>Distribution (POM)</name>
 
   <url>https://github.com/StratusLab</url>
@@ -59,7 +59,7 @@ StratusLab cloud components.
   <scm>
     <connection>scm:git:ssh://git@github.com/StratusLab/distribution.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/StratusLab/distribution.git</developerConnection>
-    <tag>distribution-14.06.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <repositories>

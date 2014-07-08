@@ -412,7 +412,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>com.couchbase.client</groupId>
         <artifactId>couchbase-client</artifactId>
-        <version>1.4.2</version>
+        <version>1.4.3</version>
       </dependency>
 
       <dependency>

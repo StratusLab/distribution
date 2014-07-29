@@ -422,9 +422,9 @@ StratusLab cloud components.
       </dependency>
 
       <dependency>
-        <groupId>org.clojars.runa</groupId>
-        <artifactId>clj-schema</artifactId>
-        <version>1.0.0</version>
+        <groupId>prismatic</groupId>
+        <artifactId>schema</artifactId>
+        <version>0.2.4</version>
       </dependency>
 
       <dependency>
@@ -459,6 +459,13 @@ StratusLab cloud components.
         <scope>test</scope>
       </dependency>
 
+      <dependency>
+        <groupId>expectations</groupId>
+        <artifactId>expectations</artifactId>
+        <version>2.0.7</version>
+        <scope>test</scope>
+      </dependency>
+      
       <dependency>
         <groupId>org.clojure</groupId>
         <artifactId>tools.namespace</artifactId>

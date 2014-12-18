@@ -165,7 +165,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.11</version>
+        <version>4.12</version>
       </dependency>
       <dependency>
         <groupId>org.hamcrest</groupId>
@@ -265,7 +265,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.31</version>
+        <version>5.1.34</version>
       </dependency> 
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -325,7 +325,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>org.clojure</groupId>
         <artifactId>tools.logging</artifactId>
-        <version>0.3.0</version>
+        <version>0.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.clojure</groupId>
@@ -341,18 +341,18 @@ StratusLab cloud components.
       <dependency>
         <groupId>http-kit</groupId>
         <artifactId>http-kit</artifactId>
-        <version>2.1.18</version>
+        <version>2.1.19</version>
       </dependency>
 
       <dependency>
         <groupId>ring</groupId>
         <artifactId>ring-core</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.2</version>
       </dependency>
       <dependency>
         <groupId>ring</groupId>
         <artifactId>ring-jetty-adapter</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.2</version>
       </dependency>
       <dependency>
         <groupId>ring</groupId>
@@ -362,7 +362,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>compojure</groupId>
         <artifactId>compojure</artifactId>
-        <version>1.1.8</version>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>hiccup</groupId>
@@ -384,23 +384,23 @@ StratusLab cloud components.
       <dependency>
         <groupId>clj-http</groupId>
         <artifactId>clj-http</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
       </dependency>
 
       <dependency>
         <groupId>metrics-clojure</groupId>
         <artifactId>metrics-clojure</artifactId>
-        <version>2.1.0</version>
+        <version>2.4.0</version>
       </dependency>
       <dependency>
         <groupId>metrics-clojure-ring</groupId>
         <artifactId>metrics-clojure-ring</artifactId>
-        <version>2.1.0</version>
+        <version>2.4.0</version>
       </dependency>
       <dependency>
         <groupId>metrics-clojure-jvm</groupId>
         <artifactId>metrics-clojure-jvm</artifactId>
-        <version>2.1.0</version>
+        <version>2.4.0</version>
       </dependency>
 
       <dependency>
@@ -412,7 +412,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>com.couchbase.client</groupId>
         <artifactId>couchbase-client</artifactId>
-        <version>1.4.4</version>
+        <version>1.4.6</version>
       </dependency>
 
       <dependency>
@@ -424,13 +424,13 @@ StratusLab cloud components.
       <dependency>
         <groupId>prismatic</groupId>
         <artifactId>schema</artifactId>
-        <version>0.2.6</version>
+        <version>0.3.3</version>
       </dependency>
 
       <dependency>
         <groupId>peridot</groupId>
         <artifactId>peridot</artifactId>
-        <version>0.3.0</version>
+        <version>0.3.1</version>
       </dependency>
 
       <dependency>
@@ -442,7 +442,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>instaparse</groupId>
         <artifactId>instaparse</artifactId>
-        <version>1.3.3</version>
+        <version>1.3.5</version>
       </dependency>
 
       <dependency>
@@ -461,14 +461,14 @@ StratusLab cloud components.
       <dependency>
         <groupId>expectations</groupId>
         <artifactId>expectations</artifactId>
-        <version>2.0.9</version>
+        <version>2.0.13</version>
         <scope>test</scope>
       </dependency>
       
       <dependency>
         <groupId>org.clojure</groupId>
         <artifactId>tools.namespace</artifactId>
-        <version>0.2.5</version>
+        <version>0.2.7</version>
       </dependency>
 
       <dependency>
@@ -480,7 +480,7 @@ StratusLab cloud components.
       <dependency>
         <groupId>reply</groupId>
         <artifactId>reply</artifactId>
-        <version>0.3.4</version>
+        <version>0.3.5</version>
       </dependency>
 
       <dependency>
